@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 
 app.get("/api/data", (req, res) => {
   const data = {
-    message: "This is a JSON response.",
+    message: "This is a JSON.",
     timestamp: new Date(),
   };
   res.json(data);
