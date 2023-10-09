@@ -5,7 +5,7 @@ const port = 3001;
 
 // Define your routes and handlers
 app.get("/", (req, res) => {
-  res.send("Hello, World! This is a plain text response.");
+  res.send("Hello, Sanjeewna.");
 });
 
 app.get("/api/data", (req, res) => {
